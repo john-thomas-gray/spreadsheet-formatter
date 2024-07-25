@@ -47,7 +47,6 @@ def process_all_xls(csv_input_dir, xls_output_dir):
         process_xls_to_csv(xls_file, output_file_path)
         print(f"Processed {xls_file} to {output_file_path}")
 
-# Example usage: process all XLS files
 csv_input_dir = 'xls_in'
 xls_output_dir = 'csv_out'
 process_all_xls(csv_input_dir, xls_output_dir)
